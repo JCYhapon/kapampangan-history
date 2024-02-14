@@ -1,0 +1,145 @@
+/* General styles */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Styles for the hero image */
+.hero {
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 94vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero::before {
+  content: "";
+  background: url("https://angelecitystourism.files.wordpress.com/2014/08/church.jpg")
+    center;
+  background-size: cover;
+  filter: hue-rotate(180deg);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+.hero-text {
+  max-width: 50%;
+  text-align: center;
+  color: white;
+  text-align: center;
+}
+
+.hero-text > h1 {
+  font-family: "Playfair Display", serif;
+  text-shadow: 2px 2px black;
+
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+.hero-text > p {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 200;
+  line-height: 1.5;
+}
+.wrap {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button {
+  width: 140px;
+  height: 45px;
+  font-family: "Roboto", sans-serif;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.2s ease 0s;
+  cursor: pointer;
+  outline: none;
+  margin-top: 20px;
+}
+.button a {
+  color: black;
+  transition: all 0.2s ease 0s;
+}
+.button:hover {
+  background-color: #4f2a2a;
+  box-shadow: 0px 15px 20px rgba(79, 42, 42, 0.4);
+  color: #fff;
+}
+.button:hover a {
+  color: white;
+}
+
+@media only screen and (max-width: 768px) {
+  .hero-text > h1 {
+    font-family: "Playfair Display", serif;
+    text-shadow: 2px 2px black;
+
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  .button {
+    width: 140px;
+    height: 45px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .hero-text > h1 {
+    font-family: "Playfair Display", serif;
+    text-shadow: 2px 2px black;
+
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .hero-text > h1 {
+    font-family: "Playfair Display", serif;
+    text-shadow: 2px 2px black;
+
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  .button {
+    width: 80px;
+    height: 35px;
+    font-family: "Roboto", sans-serif;
+    font-size: 8px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .hero-text > h1 {
+    font-family: "Playfair Display", serif;
+    text-shadow: 2px 2px black;
+
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  .button {
+    width: 70px;
+    height: 35px;
+    font-family: "Roboto", sans-serif;
+    font-size: 7px;
+  }
+}

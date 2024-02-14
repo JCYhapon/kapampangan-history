@@ -1,0 +1,401 @@
+.info p {
+  margin-left: 6rem;
+  margin-right: 6rem;
+  font-size: 20px;
+  font-family: "Nunito", sans-serif;
+}
+
+.info h1 {
+  margin-top: 3rem;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.info .banner img {
+  height: 200px;
+  width: auto;
+  border-radius: 10px;
+}
+
+.info .banner {
+  display: flex;
+  gap: 3rem;
+  margin-top: 3rem;
+  margin-left: 5rem;
+}
+
+.container h1 {
+  text-align: center;
+  margin-top: 3rem;
+  font-family: "Josefin Sans", sans-serif;
+  color: black;
+}
+
+.container h2 {
+  text-align: justify;
+  color: black;
+  margin-top: 2.5rem;
+}
+
+.container .festivals img {
+  height: 400px;
+  width: auto;
+  border-radius: 10px;
+  margin-top: 2rem;
+}
+
+.container .festivals .images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container .festivals .lantern p {
+  margin-top: 2rem;
+  font-family: "Nunito", sans-serif;
+  text-align: justify;
+}
+
+@media only screen and (max-width: 1440px) {
+  .containerr {
+    display: block;
+  }
+  .containerr .image {
+    width: 100%;
+  }
+  .containerr .info {
+    width: 100%;
+  }
+  .containerr .info div {
+    width: 100%;
+  }
+  .info h1 {
+    font-size: 2.5rem;
+    color: black !important;
+  }
+  .info p {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .info .banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .info .banner {
+    margin-top: auto;
+    margin-left: auto;
+  }
+}
+@media only screen and (max-width: 1280) {
+  .containerr {
+    display: flex;
+  }
+  .containerr .image {
+    width: 100%;
+  }
+  .containerr .info {
+    width: 100%;
+  }
+
+  .info p {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2rem;
+    text-align: justify;
+  }
+  .info .banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5rem;
+  }
+  .container h1 {
+    margin-top: 55rem;
+  }
+  .info .banner {
+    margin-top: auto;
+    margin-left: auto;
+  }
+  .container .festivals img {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 2rem;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .containerr {
+    display: flex;
+  }
+  .containerr .image {
+    width: 100%;
+  }
+  .containerr .info {
+    width: 100%;
+    height: 100%;
+  }
+
+  .info p {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2rem;
+    text-align: justify;
+  }
+  .info .banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5rem;
+  }
+  .info .banner img {
+    width: 60%;
+    height: 60%;
+  }
+  .container h1 {
+    margin-top: 2rem;
+  }
+
+  .info .banner p {
+    margin-top: auto;
+    margin-left: auto;
+    text-align: center;
+  }
+  .container .festivals img {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 2rem;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .containerr {
+    display: flex;
+  }
+  .containerr .image {
+    width: 100%;
+  }
+  .containerr .info {
+    width: 100%;
+    height: 100%;
+  }
+
+  .info p {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2rem;
+    text-align: justify;
+  }
+  .info .banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5rem;
+  }
+  .info .banner img {
+    width: 60%;
+    height: 60%;
+  }
+  .container h1 {
+    margin-top: 2rem;
+  }
+
+  .info .banner p {
+    margin-top: auto;
+    margin-left: auto;
+    text-align: center;
+  }
+  .container .festivals img {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 2rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .containerr {
+    display: flex;
+  }
+  .containerr .image {
+    width: 100%;
+  }
+  .containerr .info {
+    width: 100%;
+    height: 100%;
+  }
+
+  .info p {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2rem;
+    text-align: justify;
+  }
+  .info .banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5rem;
+  }
+  .info .banner img {
+    width: 60%;
+    height: 60%;
+  }
+  .container h1 {
+    margin-top: 2rem;
+  }
+
+  .info .banner p {
+    margin-top: auto;
+    margin-left: auto;
+    text-align: center;
+  }
+  .container .festivals img {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 2rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .containerr {
+    display: flex;
+  }
+  .containerr .image {
+    width: 100%;
+  }
+  .containerr .info {
+    width: 100%;
+    height: 100%;
+  }
+
+  .info p {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2rem;
+    text-align: justify;
+  }
+  .info .banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5rem;
+  }
+  .info .banner img {
+    width: 60%;
+    height: 60%;
+  }
+  .container h1 {
+    margin-top: 2rem;
+  }
+
+  .info .banner p {
+    margin-top: auto;
+    margin-left: auto;
+    text-align: center;
+  }
+  .container .festivals img {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 2rem;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .containerr {
+    display: flex;
+  }
+  .containerr .image {
+    width: 100%;
+  }
+  .containerr .info {
+    width: 100%;
+    height: 100%;
+  }
+
+  .info p {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2rem;
+    text-align: justify;
+  }
+  .info .banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5rem;
+  }
+  .info .banner img {
+    width: 60%;
+    height: 60%;
+  }
+  .container h1 {
+    margin-top: 2rem;
+  }
+
+  .info .banner p {
+    margin-top: auto;
+    margin-left: auto;
+    text-align: center;
+  }
+  .container .festivals img {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 2rem;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .containerr {
+    display: flex;
+  }
+  .containerr .image {
+    width: 100%;
+  }
+  .containerr .info {
+    width: 100%;
+    height: 100%;
+  }
+
+  .info p {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2rem;
+    text-align: justify;
+  }
+  .info .banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5rem;
+  }
+  .info .banner img {
+    width: 60%;
+    height: 60%;
+  }
+  .container h1 {
+    margin-top: 2rem;
+  }
+
+  .info .banner p {
+    margin-top: auto;
+    margin-left: auto;
+    text-align: center;
+  }
+  .container .festivals img {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 2rem;
+  }
+}

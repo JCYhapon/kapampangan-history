@@ -1,0 +1,237 @@
+html,
+body {
+  margin: 0;
+  height: 120%;
+}
+a {
+  text-decoration: none;
+}
+.header {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: flex-start;
+  height: 50vw;
+  min-height: 400px;
+  max-height: 550px;
+  min-width: 300px;
+  color: #eee;
+}
+.header:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.12) 40%,
+    rgba(27, 32, 48, 1) 100%
+  );
+}
+.header:before {
+  content: "";
+  width: 100%;
+  height: 200%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-backface-visibility: hidden;
+  -webkit-transform: translateZ(0);
+  backface-visibility: hidden;
+  transform: translateZ(0);
+  background: #1b2030
+    url(https://scontent.fmnl9-4.fna.fbcdn.net/v/t1.18169-9/20476049_1519073748113548_5167232710685091568_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeECi1ZQoTciI-PEVyVfM_KYFaYSP-cW6WUVphI_5xbpZS9Vg0zV-eY6C1JMJNH6ctV0BRjcoZ_05bIyJlttwCvN&_nc_ohc=5bIaGKaz0p0AX9MUkpt&_nc_ht=scontent.fmnl9-4.fna&oh=00_AfCAEN-jBsPsrS11t_Ph3vRfZybZUK6B5UOEv4TAgeKjXw&oe=6473925F)
+    50% 0 no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+  animation: grow 360s linear 10ms infinite;
+  transition: all 0.4s ease-in-out;
+  z-index: -2;
+}
+
+.header a {
+  color: #eee;
+}
+.wrap {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button {
+  width: 140px;
+  height: 45px;
+  font-family: "Roboto", sans-serif;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.2s ease 0s;
+  cursor: pointer;
+  outline: none;
+  margin-top: 10px;
+}
+.button a {
+  color: black;
+  transition: all 0.2s ease 0s;
+}
+.button:hover {
+  background-color: #4f2a2a;
+  box-shadow: 0px 15px 20px rgba(79, 42, 42, 0.4);
+  color: #fff;
+}
+.button:hover a {
+  color: white;
+}
+.menu {
+  display: block;
+  width: 40px;
+  height: 30px;
+  border: 2px solid #fff;
+  border-radius: 3px;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  text-decoration: none;
+}
+.menu:after {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 3px;
+  background: #fff;
+  position: absolute;
+  margin: 0 auto;
+  top: 5px;
+  left: 0;
+  right: 0;
+  box-shadow: 0 8px, 0 16px;
+}
+.logo {
+  border: 2px solid #fff;
+  border-radius: 3px;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  align-content: center;
+  margin: 20px;
+  padding: 0px 10px;
+  font-weight: 900;
+  font-size: 1.1em;
+  line-height: 1;
+  box-sizing: border-box;
+  height: 40px;
+}
+.sides,
+.info {
+  flex: 0 0 auto;
+  width: 50%;
+}
+.info {
+  width: 100%;
+  padding: 15% 10% 0 10%;
+  text-align: center;
+  text-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+}
+.author {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: url(https://i.imgur.com/6DLCsZcb.jpg) center no-repeat;
+  background-size: cover;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
+  margin-bottom: 3px;
+}
+.info h4,
+.meta {
+  font-size: 0.7em;
+}
+.meta {
+  font-style: italic;
+}
+@keyframes grow {
+  0% {
+    transform: scale(1) translateY(0px);
+  }
+  50% {
+    transform: scale(1.2) translateY(-400px);
+  }
+}
+.content {
+  padding: 5% 10%;
+  text-align: justify;
+  background-color: white;
+}
+.content .content-box {
+  margin-bottom: 50px;
+}
+.content .content-box p {
+  margin-bottom: 30px;
+  font-family: "Nunito", sans-serif;
+}
+.content h1 {
+  color: black;
+  margin-bottom: 50px;
+  padding: 0 10%;
+}
+
+.image-with-text img {
+  width: 25%;
+}
+
+.kp-image-left {
+  float: left;
+  margin-right: 20px;
+}
+.kp-image-right {
+  float: right;
+  margin-left: 20px;
+}
+
+.bold {
+  font-weight: 700;
+}
+@media only screen and (max-width: 768px) {
+  .header {
+    height: 80vw;
+    max-height: 100%;
+  }
+  .header:before {
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+  }
+  .sides,
+  .info {
+    width: 100%;
+  }
+  .menu {
+    display: block;
+  }
+  .logo {
+    margin: 10px;
+    height: 30px;
+    font-size: 0.9em;
+  }
+  .button {
+    font-size: 10px;
+    width: 120px;
+    height: 35px;
+  }
+  .image-with-text img {
+    width: 55%;
+  }
+}
